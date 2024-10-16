@@ -1,0 +1,248 @@
+@font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 100;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-thin.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 100;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-thinitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 200;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-extralight.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 200;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-extralightitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 300;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-light.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 300;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-lightitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-regular.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 400;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-regularitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-medium.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 500;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-mediumitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 600;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-semilight.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 600;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-semilightitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-bold.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 700;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-bolditalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 800;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-extrabold.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 800;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-extrabolditalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: normal;
+     font-weight: 900;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-black.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Rustica';
+     font-style: italic;
+     font-weight: 900;
+     font-display: swap;
+     src: url('~/assets/fonts/rustica/rustica-blackitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 100;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Thin.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 100;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Thinitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 300;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Light.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 300;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Lightitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Regular.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Medium.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 500;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Mediumitalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 600;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Semibold.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 600;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Semibolditalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Bold.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 700;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Bolditalic.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: normal;
+     font-weight: 900;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Black.otf') format('opentype');
+   }
+   
+   @font-face {
+     font-family: 'Degular';
+     font-style: italic;
+     font-weight: 900;
+     font-display: swap;
+     src: url('~/assets/fonts/degular/Degular-Blackitalic.otf') format('opentype');
+   }
+   
