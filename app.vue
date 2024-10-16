@@ -12,15 +12,13 @@ useHead({
         { property: 'og:title', content: 'Ecommerce App' },
         { property: 'og:description', content: 'Your one-stop shop for all your ecommerce needs.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://your-ecommerce-app.com' },
-        { property: 'og:image', content: 'https://your-ecommerce-app.com/og-image.jpg' },
+        { property: 'og:url', content: 'https://ecommerce-nuxt-vue.vercel.app/' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Ecommerce App' },
         { name: 'twitter:description', content: 'Your one-stop shop for all your ecommerce needs.' },
-        { name: 'twitter:image', content: 'https://your-ecommerce-app.com/twitter-image.jpg' },
       ],
       link: [
-        { rel: 'canonical', href: 'https://your-ecommerce-app.com' },
+        { rel: 'canonical', href: 'https://ecommerce-nuxt-vue.vercel.app/' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ]
 });
