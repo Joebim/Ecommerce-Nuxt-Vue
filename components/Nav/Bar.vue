@@ -5,7 +5,6 @@ import { useCartStore } from "~/stores/cart";
 import { ref } from "vue";
 
 const cartStore = useCartStore();
-const { cart } = cartStore;
 
 const isToggled = ref(false)
 
@@ -60,12 +59,12 @@ const toggleState = () => {
             aria-label="Cart"
           >
             <div class="relative">
-              <template v-if="cart.length > 0">
+              <template v-if="cartStore.cart.length > 0">
                 <div
                   class="absolute right-0 mr-[-5px] mt-[-5px] h-[12px] w-[12px] flex justify-center items-center rounded-full bg-destructive text-white text-[10px]"
                   aria-live="polite"
                 >
-                  {{ cart.length }}
+                  {{ cartStore.cart.length }}
                 </div>
               </template>
               <ShoppingCart class="text-muted-foreground" />
