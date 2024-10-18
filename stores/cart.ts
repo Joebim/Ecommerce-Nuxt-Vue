@@ -1,13 +1,10 @@
-// stores/cart.ts
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
 import type { CartItem } from '~/types';
 
 export const useCartStore = defineStore('cart', () => {
-  // State
   const cart = ref<CartItem[]>([]);
 
-  // Initialize cart from localStorage
   const loadCart = () => {
     if (typeof window !== 'undefined') {
       const storedCart = localStorage.getItem('cart');
@@ -17,18 +14,15 @@ export const useCartStore = defineStore('cart', () => {
     }
   };
 
-  // Persist cart to localStorage
   const saveCart = () => {
     if (typeof window !== 'undefined') {
       localStorage.setItem('cart', JSON.stringify(cart.value));
     }
   };
 
-  // Getters
   const totalItems = computed(() => cart.value.reduce((total, item) => total + item.quantity, 0));
   const totalPrice = computed(() => cart.value.reduce((total, item) => total + item.price * item.quantity, 0));
 
-  // Actions
   const addToCart = (product: Omit<CartItem, 'quantity'>) => {
     const existingItem = cart.value.find(item => item.id === product.id);
     if (existingItem) {
@@ -61,7 +55,6 @@ export const useCartStore = defineStore('cart', () => {
     saveCart();
   };
 
-  // Load the cart when the store is initialized
   loadCart();
 
   return {
